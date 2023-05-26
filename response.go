@@ -1,6 +1,9 @@
 package go_zero_common_response
 
-import "net/http"
+import (
+	"github.com/zeromicro/go-zero/rest/httpx"
+	"net/http"
+)
 
 type Resp struct {
 	Code int    `json:"code"`
